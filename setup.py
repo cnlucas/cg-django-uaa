@@ -90,7 +90,7 @@ setup(
     package_dir={"uaa_client": "uaa_client"},
     include_package_data=True,
     packages=find_packages(),
-    install_requires=["django~=2.2.0", "PyJWT>=1.4.2,<2.0", "requests>=2.11.0"],
+    install_requires=["django>=2.2.0,<3.2", "PyJWT>=1.4.2", "requests>=2.11.0"],
     test_suite="uaa_client.runtests.run_tests",
     tests_require=open("requirements-tests.txt", "r").read().strip().split("\n"),
     classifiers=[
@@ -107,9 +107,10 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.4",
-        "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
         "Topic :: Utilities",
     ],
 )
