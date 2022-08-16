@@ -182,7 +182,7 @@ intersphinx_mapping = {
         "https://docs.djangoproject.com/en/3.2/",
         "https://docs.djangoproject.com/en/3.2/_objects/",
     ),
-    "python": ("https://docs.python.org/3.9", None),
+    "python": ("https://docs.python.org/3.8", None),
 }
 
 
